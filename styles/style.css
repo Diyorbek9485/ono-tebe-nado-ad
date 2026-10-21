@@ -105,3 +105,26 @@ body {
   margin-right: -0.3em;
   text-align: right;
 }
+.cover__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cover__subtitle {
+  font-size: 22px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.cover__button {
+  width: 256px;
+  height: 51px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
