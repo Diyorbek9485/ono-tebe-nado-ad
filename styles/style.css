@@ -243,3 +243,34 @@ body {
   font-size: 20px;
   line-height: 24px;
 }
+/* footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  min-height: 180px;
+  padding: 0 50px;
+}
+
+.footer__menu {
+  justify-self: center;
+}
+
+.footer__list {
+  text-align: center;
+  list-style: none;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  justify-self: end;
+  width: 240px;
+  list-style: none;
+}
+
+.footer__icon {
+  display: block;
+  width: 48px;
+}
