@@ -128,3 +128,78 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+/* lots */
+
+.lots {
+  margin-bottom: 118px;
+  padding: 0 24px;
+}
+
+.lots__heading {
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.lots__list {
+  display: flex;
+  gap: 25px;
+  padding: 27px 0 34px;
+  list-style: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 334px;
+  height: 596px;
+  padding: 48px 40px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.card > * {
+  position: relative;
+}
+
+.card_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.card__title {
+  font-size: 22px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.card__text {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.lots__more {
+  padding-left: 40px;
+  font-size: 20px;
+}
