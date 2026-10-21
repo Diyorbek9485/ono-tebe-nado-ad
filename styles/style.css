@@ -274,3 +274,33 @@ body {
   display: block;
   width: 48px;
 }
+/* states */
+
+.menu-list__link:hover,
+.contacts__link:hover,
+.lots__more:hover {
+  text-decoration: none;
+}
+
+.cover__button {
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.cover__button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.card::before {
+  transition: background-color 0.2s;
+}
+
+.card:hover::before {
+  background-color: rgb(0 0 0 / 0.7);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #f4b400;
+  outline-offset: 3px;
+}
