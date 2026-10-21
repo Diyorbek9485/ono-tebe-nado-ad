@@ -59,3 +59,49 @@ body {
   font-style: normal;
   line-height: 1.35;
 }
+/* cover */
+
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
+  margin-bottom: 150px;
+  padding: 150px 50px 60px;
+  background: url(../images/cover.jpg) center / cover no-repeat;
+  color: #fff;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.cover > * {
+  position: relative;
+}
+
+.cover__title {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1.35;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.cover__word {
+  display: block;
+}
+
+.cover__word_center {
+  text-align: center;
+  text-indent: 0.3em;
+}
+
+.cover__word_right {
+  margin-right: -0.3em;
+  text-align: right;
+}
