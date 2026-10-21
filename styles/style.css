@@ -203,3 +203,43 @@ body {
   padding-left: 40px;
   font-size: 20px;
 }
+/* about */
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  margin-bottom: 181px;
+  padding: 0 24px;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin: 35px auto 0;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.about__logo-image {
+  width: 142px;
+}
+
+.about__title {
+  padding: 141px 0 0 25px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 100px 0 0 25px;
+  font-size: 20px;
+  line-height: 24px;
+}
