@@ -283,25 +283,9 @@ body {
   text-decoration: none;
 }
 
-.cover__button {
-  width: 256px;
-  height: 51px;
-  border: 1px solid #fff;
-  background-color: transparent;
-  color: #fff;
-  font-size: 22px;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.2s, color 0.2s;
-}
-
 .cover__button:hover {
   background-color: #fff;
   color: #000;
-}
-
-.card::before {
-  transition: background-color 0.2s;
 }
 
 .card:hover::before {
